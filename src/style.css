@@ -1,0 +1,17 @@
+/* Resetando as configurações padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando itens da lista */
+li {
+    list-style: none;
+}
+
+/* Editando links */
+a {
+    text-decoration: none;
+    color: black;
+}
