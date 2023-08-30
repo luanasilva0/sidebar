@@ -5,13 +5,41 @@
     box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+
+    width: 15.625rem;
+    height: 100vh;
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    gap: 2.125rem;
+    width: 100%;
+} 
+
 /* Estilizando itens da lista */
 li {
     list-style: none;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 
 /* Editando links */
 a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
     text-decoration: none;
     color: black;
 }
