@@ -5,14 +5,29 @@
     box-sizing: border-box;
 }
 
+/* Menu de navegação da página */
 nav {
     display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;
 
     width: 15.625rem;
     height: 100vh;
+    padding: 24px 14px;
     background-color: aqua;
+}
+
+/* Cabeçalho do menu */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > button {
+    background-color: transparent;
+    border: none;
 }
 
 ul {
