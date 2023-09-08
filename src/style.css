@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* Váriaveis */
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+    --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+
 /* Menu de navegação da página */
 nav {
     display: flex;
@@ -48,7 +57,6 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 /* Editando links */
