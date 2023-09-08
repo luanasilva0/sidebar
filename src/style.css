@@ -23,7 +23,8 @@ nav {
 
     width: 15.625rem;
     height: 100vh;
-    background-color: aqua;
+    background-color: var(--green);
+    color: var(--text-color);
 }
 
 /* Cabeçalho do menu */
@@ -67,9 +68,8 @@ a {
     gap: 15px;
 
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
 }
-
 
 /* Editando login do usuário */
 footer {
