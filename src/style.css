@@ -14,7 +14,6 @@ nav {
 
     width: 15.625rem;
     height: 100vh;
-    padding: 24px 14px;
     background-color: aqua;
 }
 
@@ -23,6 +22,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 24px 14px;
 }
 
 header > button {
@@ -36,6 +37,8 @@ ul {
     align-content: flex-start;
     gap: 2.125rem;
     width: 100%;
+
+    padding: 0 14px;
 } 
 
 /* Estilizando itens da lista */
@@ -57,4 +60,31 @@ a {
 
     text-decoration: none;
     color: black;
+}
+
+
+/* Editando login do usuário */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 14px;
+    
+    width: 100%;
+    height: 60px;
+}
+
+/* Editando informações do usuário */
+.user {
+    display: flex;
+    gap: 6px;
+}
+
+/* Foto de perfil do usuário */
+.avatar {
+    width: 45px;
+    height: 45px;
+    background-image: url('../img/photo.jpg');
+    background-size: cover;
 }
