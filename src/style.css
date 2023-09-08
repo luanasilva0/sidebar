@@ -83,6 +83,8 @@ a {
 
 /* Editando login do usuário */
 footer {
+    background-color: var(--light-green);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,4 +107,6 @@ footer {
     height: 45px;
     background-image: url('../img/photo.jpg');
     background-size: cover;
+
+    border-radius: 12px;
 }
