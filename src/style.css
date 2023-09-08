@@ -25,6 +25,8 @@ nav {
     height: 100vh;
     background-color: var(--green);
     color: var(--text-color);
+
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Cabeçalho do menu */
@@ -98,7 +100,16 @@ footer {
 /* Editando informações do usuário */
 .user {
     display: flex;
-    gap: 6px;
+    gap: 10px;
+}
+
+.user__name {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.user__office {
+    font-size: 12px;
 }
 
 /* Foto de perfil do usuário */
