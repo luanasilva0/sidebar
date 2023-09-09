@@ -15,12 +15,24 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     display: flex;
+
+    background-color: var(--body-bg-color);
 }
 
 h1 {
+    width: 8.8125rem;
+    height: 2.375rem;
+
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 0 0 18px;
     gap: 18px;
+
+    font-size: 25px;
+    color: var(--text-color);
 }
 
 /* Menu de navegação da página */
