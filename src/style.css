@@ -14,6 +14,15 @@
     --text-color: #084236;
 }
 
+body {
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    gap: 18px;
+}
+
 /* Menu de navegação da página */
 nav {
     display: flex;
@@ -41,6 +50,10 @@ header {
 header > button {
     background-color: transparent;
     border: none;
+}
+
+header > button:hover {
+    cursor: pointer;
 }
 
 ul {
