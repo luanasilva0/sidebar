@@ -14,6 +14,9 @@
 ## Descrição do projeto
 Este projeto tem como objetivo criar e apresentar o componente de sidebar para uma aplicação de veterinária. O sidebar é uma parte essencial da interface do usuário, pois oferece um acesso fácil e rápido às diferentes seções de uma aplicação.
 
+## Acessar projeto
+Você pode acessar ao projeto [clicando aqui](https://luanasilva0.github.io/sidebar/).
+
 ## Tecnologias utilizadas
 - HTML
 - CSS 
